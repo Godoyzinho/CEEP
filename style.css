@@ -1,0 +1,377 @@
+.ceep{
+    padding: 16px 0px 0px 16px;
+    font-size: 35px;
+}
+
+.caixa{
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    background: #963535;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff
+}
+
+.caixa2{
+    height: 70px;
+    width: 100%;  
+    background: #d9d9d9;
+}
+
+.nav{
+    text-align: left;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 10px;
+  
+}
+
+.dropbtn {
+    color: #963535;
+    font-size: 20px;
+    border: none;
+    font-family:  'Sansation', sans-serif;
+  }
+
+  .cursos{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+  }
+
+  .atend{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+  }
+  
+  .local{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+  }
+
+  .triangle {
+    display: inline-block;
+    width: 0;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #963535;
+    rotate: 180deg;
+    margin: 0 0 2px 10px;
+   }
+
+.line {
+    border: 1px solid;
+    height: 40px;
+    width: 0px;
+    color: #aaaaaa;
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    top: 84px;
+  }
+
+.dropdown {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 126px;
+    height: 46px;
+    background-color: #d9d9d9;
+    padding: 24px 0 0 15px;
+}
+
+.dropdown-child {
+    margin-top: 26px;
+    display: none;
+    background-color: #d9d9d9;
+    min-width: 142px;
+    font-family: 'Sansation', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: -14px;
+}
+
+div p {
+    border-top: 1px solid #aaaaaa;
+}
+
+.dropdown-child p {
+    color: #963535;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown2 {
+    position: absolute;
+    left: 141px;
+    top: 70px;
+    width: 185px;
+    height: 46px;
+    background-color: #d9d9d9;
+    padding: 24px 0 0 15px;
+}
+
+.dropdown-child2 {
+    margin-top: 26px;
+    display: none;
+    background-color: #d9d9d9;
+    min-width: 198px;
+    font-family: 'Sansation', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: -4px;
+}
+
+.dropdown-child2 p {
+    color: #963535;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
+
+.line2 {
+    border: 1px solid;
+    height: 40px;
+    width: 0px;
+    color: #aaaaaa;
+    display: inline-block;
+    position: absolute;
+    left: 340px;
+    top: 84px;
+  }
+
+  .dropdown3 {
+    position: absolute;
+    left: 341px;
+    top: 70px;
+    min-width: 184px;
+    height: 46px;
+    background-color: #d9d9d9;
+    padding: 24px 0 0 15px;
+}
+
+.dropdown-child3 {
+    margin-top: 26px;
+    display: none;
+    background-color: #d9d9d9;
+    width: 199px;
+    font-family: 'Sansation', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: 0px;
+}
+
+.dropdown-child3 p {
+    color: #963535;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown3:hover .dropdown-child3 {
+    display: block;
+}
+
+.image{
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    z-index: -5;
+}
+
+.t_fundo{
+    background-color: #d9d9d9;
+    position: absolute;
+    height: 560px;
+    width: 700px;
+    top: 780px;
+    left: 330px;
+    border-radius: 10%;
+}
+
+.texto{
+    text-align: center;
+    font-size: 23px;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 805px;
+    left: 380px;
+    font-family:  'Sansation', sans-serif;
+}
+
+.fundo_cursos{
+    position: absolute;
+    left: -115px;
+    top: 1400px;
+}
+
+.fundo_cursos div{
+    background-color: #963535;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+.fundo_cursos div:hover{
+    transform: scale(1.1);
+}
+
+.ads{
+    position: absolute;
+    left: 175px;
+}
+
+.vest{
+    position: absolute;
+    left: 355px;
+}
+
+.agro{
+    position: absolute;
+    left: 535px;
+}
+
+.quimi{
+    position: absolute;
+    left: 715px;
+}
+
+.farm{
+    position: absolute;
+    left: 895px;
+}
+
+.segure{
+    position: absolute;
+    left: 1075px;
+}
+
+.rh{
+    position: absolute;
+    left: 1255px;
+}
+
+.ads_i{
+    position: relative;
+    left: 5px;
+    top: 8px;
+    transform: scale(0.9);
+}
+
+.vest_i{
+    position: relative;
+    left: 5px;
+    top: 12px;
+    transform: scale(0.9);
+}
+
+.agro_i{
+    position: relative;
+    left: 7px;
+    top: 12px;
+    transform: scale(0.9);
+}
+
+.quimi_i{
+    position: relative;
+    left: 29px;
+    top: 25px;   
+    transform: scale(0.);
+}
+
+.farm_i{
+    position: relative;
+    left: 23px;
+    top: 25px; 
+}
+
+.segure_i{
+    position: relative;
+    left: 23px;
+    top: 28px;
+}
+
+.rh_i{
+    position: relative;
+    left: 25px;
+    top: 28px;
+}
+
+.rodape_b{
+    background-color: #0e0e0e;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: -1180px;
+}
+
+.logo{
+    position: absolute;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    right: 1250px;
+}
+
+.endereco{
+    text-align: left;
+    color: #d9d9d9;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    height: 100px;
+    top: 80px;
+    left: 10px;
+    right: 1000px;
+}
+
+.telefone{
+    text-align: left;
+    color: #d9d9d9;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    top: 125px;
+    left:10px;
+    right:1050px;
+}
+
+.copyright{
+    text-align: left;
+    color: #6d6d6d;
+    position: absolute;
+    font-size: 12px;
+    top:150px;
+    left: 1130px;
+    right: 10px;
+}
+
+.creditos{
+    text-align: left;
+    color: #d9d9d9;
+    font-family: 'inter';
+    font-size: 14px;
+    position:absolute;
+    height: 120px;
+    top: 30px;
+    left:1130px;
+    right:10px
+}
